@@ -1,2 +1,2 @@
-# nanaOkae_personal_website
-personal website made for Nana Okae
+# Nana Okae's personal website
+made using HTML/CSS
