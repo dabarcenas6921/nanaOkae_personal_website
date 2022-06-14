@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: RGB (51,51,51);
+    padding-left: 100px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#header-and-paragraph{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+    background-color: #5cc8e4;
+    padding: 16px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+#main-paragraph{
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    align-items: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: RGB (51,51,51);
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: RGB (51,51,51);
+    padding-left: 100px;
+}
+
+.profile-picture{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.project-card{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+}
+
+.project-card-img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.project-card-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 80px;
+}
+
+.biography{
+    padding-bottom: 200px;
+    padding-left: 105px;
+    padding-top: 20px;
+    background-color: rgb(213, 234, 235);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#about-me-paragraph{
+    width: 80%;
+}
+
+.portfolio{
+    padding-left: 105px;
+    margin-bottom: 100px;
+}
+
+#about-me{
+    padding-bottom: 15px;
+}
+
+.caption-and-paragraph{
+    margin-top: 15px;
+}
+
+.description{
+    padding:0;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #5cc8e4;
+    color: white;
+  }
